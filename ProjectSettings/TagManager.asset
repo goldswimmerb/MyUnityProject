@@ -38,6 +38,12 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: BGB
+    uniqueID: 2926312667
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: BGG
+    uniqueID: 1812955725
     locked: 0

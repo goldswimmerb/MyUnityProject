@@ -118,7 +118,7 @@ GameObject:
   - component: {fileID: 394618944}
   - component: {fileID: 394618943}
   m_Layer: 0
-  m_Name: 35ebf8cc49f80bb85f55967f0417612b_illustration-of-the-new-york-new-york-skyline-clipart-transparent-background_958-316
+  m_Name: BackBL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -153,8 +153,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1368654629
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: de8d5b44776054c58a10849981a77110, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -171,8 +171,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 394618942}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.01, y: -0.08, z: 0}
-  m_LocalScale: {x: 2.0675035, y: 3.056965, z: 1}
+  m_LocalPosition: {x: 1.77, y: -0.04, z: 0}
+  m_LocalScale: {x: 3.2164893, y: 3.031724, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -187,7 +187,7 @@ GameObject:
   - component: {fileID: 1493704351}
   - component: {fileID: 1493704350}
   m_Layer: 0
-  m_Name: New Sprite
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -413,6 +413,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2125931074}
   - component: {fileID: 2125931073}
+  - component: {fileID: 2125931075}
   m_Layer: 0
   m_Name: Background Grey
   m_TagString: Untagged
@@ -449,8 +450,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1812955725
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: efa12f9412ad04525b410028822e0e8e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -467,9 +468,20 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2125931072}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.96, y: -2.32, z: 0}
-  m_LocalScale: {x: 2.1662853, y: 2.0626266, z: 1}
+  m_LocalPosition: {x: 1.74, y: -1.63, z: 0}
+  m_LocalScale: {x: 3.2157257, y: 2.1053736, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2125931075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2125931072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4afce880b20704ba193b3d973c5937d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
